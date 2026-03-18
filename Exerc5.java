@@ -7,6 +7,8 @@ public class Exerc5{
 
         double INSS = 6.79;
         double VT = 58.20;
+        double VR = 72.60;
+        double planoOdonto = 20.95;
 
         //pega e armazena o salário
         Scanner teclado = new Scanner(System.in);
@@ -16,7 +18,7 @@ public class Exerc5{
         //cálculo do INSS
          double salarioLiquido = salarioBruto * (1 - INSS /100.0);
 
-        System.out.printf("Seu salário liquido é: %.2f\n", salarioLiquido - VT);
+        System.out.printf("Seu salário liquido é: %.2f\n", salarioLiquido - VT - VR - planoOdonto);
 
         teclado.close();
     }
