@@ -16,7 +16,8 @@ public class Main {
             p1.nome="Roberto";
             p1.idade=20;
         }
-            System.out.println("Nome:"+p1.nome+"\n"+"Idade:"+p1.idade);
+            System.out.println("Nome: "+p1.nome+"\n"+"Idade: "+p1.idade);
+            sc.close();
         
     }
 }
